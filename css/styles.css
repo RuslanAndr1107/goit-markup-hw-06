@@ -85,6 +85,7 @@ img {
 /*---------- header mob------------- */
 
 .header {
+    padding: 16px 0;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -137,7 +138,7 @@ img {
     top: 0;
     z-index: 999;
     background-color: #fff;
-    padding-top: 24px;
+    padding-top: 72px;
     padding-right: 24px;
     padding-bottom: 40px;
     padding-left: 16px;
@@ -149,16 +150,15 @@ img {
 }
 
 .menu-btn-close {
-    display: block;
-    margin-left: auto;
-    margin-bottom: 24px;
+    position: absolute;
+    right: 24px;
+    top: 24px;
     width: 24px;
     height: 24px;
     border: 1px solid;
     border-radius: 50%;
     background-color: transparent;
     border-color: #e7e9fc;
-    position: relative;
 }
 
 .menu-btn-svg {
@@ -200,7 +200,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
+   
 }
 
 .menu-address-link {
@@ -525,6 +525,7 @@ img {
     gap: 16px;
     max-width: 288px;
     margin-bottom: 72px;
+    margin-right: 24px;
 }
 
 .foter-logo {
@@ -547,6 +548,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .soc-media {
@@ -632,7 +634,7 @@ img {
     line-height: 2;
     color: #ffffff;
     outline: none;
-    width: 264px;
+    width: 288px;
     height: 40px;
     padding: 8px 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -1054,6 +1056,7 @@ img {
     .footer-container-new {
         align-items: flex-start;
         justify-content: flex-start;
+        margin-right: 24px;
     }
 
     .soc-media {
@@ -1311,4 +1314,4 @@ img {
     .modal-btn:focus {
         background: #404bbf;
     }
-}
+    }
